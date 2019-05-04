@@ -1,7 +1,8 @@
 # Overview
 kafka cluster 구축<br>
 구조는 아래와 같음<br>
-![alt text](architecture.png)
+![alt text](architecture.png)<br>
+kafka에서 사용되는 zookeeper는 write intensive하기에 별도의 장비로 구성하는 것을 추천한다고 함<br>
 
 
 # Environments
