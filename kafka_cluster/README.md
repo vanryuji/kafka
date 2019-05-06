@@ -14,6 +14,13 @@ kafka에서 사용되는 zookeeper는 write intensive하기에 별도의 장비�
 ### zookeeper cluster
 zookeeper는 kafka에 내장된 것을 사용<br>
 zookeeper cluster는 https://github.com/vanryuji/zookeeper/tree/master/zookeeper_cluster 참조<br>
+만약 zookeeper를 kafka 내장 binary를 사용한다면 아래와 같이 스타트 시킴<br>
+```shell
+# kafka 내장 zookeeper 스타트
+
+./bin/zookeeper-server-start.sh config/zookeeper.properties
+```
+
 
 ### kafka cluster
 ```shell
