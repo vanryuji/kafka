@@ -11,7 +11,7 @@ kafka에서 사용되는 zookeeper는 write intensive하기에 별도의 장비�
 
 
 # Cluster setup
-### zookeeper cluster
+### 1. zookeeper cluster
 zookeeper는 kafka에 내장된 것을 사용<br>
 zookeeper cluster는 https://github.com/vanryuji/zookeeper/tree/master/zookeeper_cluster 참조<br>
 만약 zookeeper를 kafka 내장 binary를 사용한다면 아래와 같이 스타트 시킴<br>
@@ -22,7 +22,7 @@ zookeeper cluster는 https://github.com/vanryuji/zookeeper/tree/master/zookeeper
 ```
 
 
-### kafka cluster
+### 2. kafka cluster
 ```shell
 # 자세한 broker configure 내용은 https://kafka.apache.org/documentation/#brokerconfigs 참조
 
@@ -39,7 +39,7 @@ broker.id=3
 zookeeper.connect=server1:2181,server2:2181,server3:2181
 ```
 
-### start kafka broker cluster
+### 3. start kafka broker cluster
 ```shell
 # server4, server5, server6 모두 동일
 
