@@ -46,10 +46,6 @@ zookeeper.connect=server1:2181,server2:2181,server3:2181
 ./bin/kafka-server-start.sh config/server.properties
 ```
 
-# Producer/Consumer for multiple brokers
-https://www.facebook.com/groups/kafka.kru/permalink/638812169893443/<br>
-lb를 두는게 좋은 방법인듯하나... lb도 다운되면...?
-
 
 # Reference
 * https://kafka.apache.org/
